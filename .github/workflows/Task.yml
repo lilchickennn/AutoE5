@@ -50,7 +50,7 @@ jobs:
         git config --global user.email chickennnnn@lilchickennn.tw
         git config --global user.name 小雞雞
         git add .
-        git commit -m "update new refresh_token" -a
+        git commit -m "update time by chickennnnn" -a
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
