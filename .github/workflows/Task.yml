@@ -8,7 +8,7 @@ on:
     branches: 
       - master
   schedule:
-    - cron: '*/2 * * * *'  # "分 時 天 月 每週" '12 */3 * * *' 
+    - cron: '*/30 * * * *'  # "分 時 天 月 每週" '12 */3 * * *' 
   watch:
     types: [started]
    
