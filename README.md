@@ -1,3 +1,4 @@
+fork from https://github.com/jing5460/AutoApi-E5
 # [查看E5剩余/到期天数](https://developer.microsoft.com/zh-cn/microsoft-365/profile) #
 # AutoApiSecret-加密版
 
