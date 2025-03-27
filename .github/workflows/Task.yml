@@ -53,5 +53,10 @@ jobs:
         git commit -m "update time by chickennnnn" -a
     - name: Push changes
       uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+      env:
+        INPUT_GITHUB_TOKEN: ${{ secrets.INPUT_GITHUB_TOKEN }}
+#    - name: Push changes
+#      uses: ad-m/github-push-action@master
+#      with:
+#        github_token: ${{ secrets.GITHUB_TOKEN }}
+
